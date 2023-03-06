@@ -3,53 +3,62 @@
 html {
     overflow: -moz-scrollbars-vertical;
     overflow-y: scroll;
-    
-    }
+
+}
+
 header {
     background-color: #4a2b73;
     color: #fff;
     background-image: url("./images/logo.png");
     background-repeat: no-repeat;
     text-align: center;
-    
+
     background-size: 5rem;
 }
-footer{
+
+footer {
     text-align: right;
 }
+
 body {
     font-family: 'Chakra Petch', sans-serif;
     background-color: #4a2b73;
     color: #fff;
     padding: 1rem;
 }
+
 #navbar {
     margin: 0;
 }
+
 #navbar ul {
     display: flex;
     list-style: none;
     justify-content: left;
-    
-    
+
+
     padding: 0;
-    
+
 }
+
 #navbar ul li {
     padding: 0 1rem;
-    
+
     font-size: 1.2rem;
     margin: auto 3px;
 }
+
 a {
     text-decoration: underline;
     color: #cea9ff;
-    
+
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 2px auto;
-}
-#body {
-    /* font-size: 20px; */
-    
 }
